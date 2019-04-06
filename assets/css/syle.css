@@ -1,0 +1,57 @@
+body {
+  font: 18px arial, sans-serif;
+  background: #eee;
+  margin:80px;
+}
+
+#your-mood-gifs {
+  width: 70%;
+}
+
+.gipheee {
+  float: left;
+  padding: 10px;
+}
+
+form {
+  float: right;
+  width: 30%;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  border-radius:10px;
+}
+
+button,
+input[type="submit"] {
+  padding: 5px 20px;
+  margin: 0 10px 10px 0;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background:#339;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #bbb;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background:#39F;
+}
+#moodButtons{
+	width:80%;
+	padding: 10px;	
+	margin: 40px;
+	}
